@@ -21,7 +21,7 @@ check_voice_list()
 # Save output to a file
 def talk(text):
     engine.say(text)
-    engine.save_to_file(text, 'speech.mp3')
+    engine.save_to_file(text, 'C:\\tmp\output\speech.mp3')
 
 def main():
     talk('This is an example of using text to speech and saving it as an MP3 file.')
