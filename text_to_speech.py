@@ -18,6 +18,7 @@ def check_voice_list():
         index +=1
 check_voice_list()
 
+# Save output to a file
 def talk(text):
     engine.say(text)
     engine.save_to_file(text, 'speech.mp3')
