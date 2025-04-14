@@ -1,7 +1,9 @@
 # text-to-speech-example
 A simple text to speech script written in Python.
 
-This program will also save the output audio to a file.
+**text_to_speech.py:** This is a prototype example of using text to speech and saving the audio as an MP3 file. 
+
+**text_to_speech_read_input.py:** A more robust example of text to speech. It reads from an input file, iterates over the lines, speaks each line, and generates an mp3 file as output for each line.
 
 Works with text-to-speech voices available for Windows 10.
 
